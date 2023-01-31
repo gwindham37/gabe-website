@@ -50,6 +50,40 @@ button {
 }
 button:hover {
     background-color: white;
-    color: black;
+    color: rgb(109, 103, 103);
     transition: .7s;
+}
+.bio {
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 48px;
+    margin-top: 200px;
+}
+.biotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: white;*/
+    flex: 1;
+}
+.biobody {
+   line-height: 1.5;
+    margin: 16px 100px
+}   
+.biotop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headshot {
+    width: 200px;
+    height:auto;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 300px;
 }
